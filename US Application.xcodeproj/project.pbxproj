@@ -13,6 +13,8 @@
 		4F6701142A72F6CC009EF8C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F6701122A72F6CC009EF8C5 /* Main.storyboard */; };
 		4F6701162A72F6CD009EF8C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F6701152A72F6CD009EF8C5 /* Assets.xcassets */; };
 		4F6701192A72F6CD009EF8C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F6701172A72F6CD009EF8C5 /* LaunchScreen.storyboard */; };
+		4F6701242A72FAB6009EF8C5 /* UrlShortenerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6701232A72FAB5009EF8C5 /* UrlShortenerService.swift */; };
+		4F6701262A72FBC5009EF8C5 /* CleanUriAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6701252A72FBC5009EF8C5 /* CleanUriAPIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4F6701152A72F6CD009EF8C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F6701182A72F6CD009EF8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F67011A2A72F6CD009EF8C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F6701232A72FAB5009EF8C5 /* UrlShortenerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlShortenerService.swift; sourceTree = "<group>"; };
+		4F6701252A72FBC5009EF8C5 /* CleanUriAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanUriAPIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		4F67010B2A72F6CC009EF8C5 /* US Application */ = {
 			isa = PBXGroup;
 			children = (
+				4F6701222A72FA9D009EF8C5 /* Services */,
 				4F6701212A72F98C009EF8C5 /* Controllers */,
 				4F6701202A72F974009EF8C5 /* Support */,
 				4F67011A2A72F6CD009EF8C5 /* Info.plist */,
@@ -81,6 +86,15 @@
 				4F6701102A72F6CC009EF8C5 /* ViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4F6701222A72FA9D009EF8C5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4F6701232A72FAB5009EF8C5 /* UrlShortenerService.swift */,
+				4F6701252A72FBC5009EF8C5 /* CleanUriAPIService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +170,8 @@
 			files = (
 				4F6701112A72F6CC009EF8C5 /* ViewController.swift in Sources */,
 				4F67010D2A72F6CC009EF8C5 /* AppDelegate.swift in Sources */,
+				4F6701262A72FBC5009EF8C5 /* CleanUriAPIService.swift in Sources */,
+				4F6701242A72FAB6009EF8C5 /* UrlShortenerService.swift in Sources */,
 				4F67010F2A72F6CC009EF8C5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
